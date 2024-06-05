@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -21,11 +21,16 @@ public class PlayerController : MonoBehaviour
 
     List<RaycastHit2D> castCollisions = new List<RaycastHit2D>();
 
+
+    public float minTimeBetweenSteps = 0.3f;
+    float timeSinceLastStep = 0f;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+        rb.freezeRotation = true; // Khóa trục Z
     }
 
     private void FixedUpdate()
@@ -45,13 +50,20 @@ public class PlayerController : MonoBehaviour
             }
 
             animator.SetBool("isMoving", success);
+
+            // Phát âm thanh nếu đủ thời gian giữa các bước
+            if (success && Time.time >= timeSinceLastStep + minTimeBetweenSteps)
+            {
+                AudioManager.Instance.PlaySFX("Walk");
+                timeSinceLastStep = Time.time;
+            }
         }
         else
         {
             animator.SetBool("isMoving", false);
         }
 
-        //Set direction of sprite to movement direction
+        // Set direction of sprite to movement direction
         if (movementInput.x < 0)
         {
             spriteRenderer.flipX = true;
