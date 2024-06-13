@@ -60,24 +60,25 @@
     <Analyzer Include="F:\Unity\Editor\2022.3.28f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\PlayerController.cs" />
-    <Compile Include="Assets\KrishnaPalacio\MINIFANTASY - Dungeon\Scripts\Audio\Sound.cs" />
-    <Compile Include="Assets\KrishnaPalacio\MINIFANTASY - Dungeon\Scripts\Prop Variants\DUN_Statue.cs" />
-    <Compile Include="Assets\KrishnaPalacio\MINIFANTASY - Dungeon\Scripts\Prop Variants\DUN_LootSack.cs" />
-    <Compile Include="Assets\KrishnaPalacio\MinifantasyCommon\Scripts\AnimatedObjectsGroup.cs" />
-    <Compile Include="Assets\UISoundController.cs" />
-    <Compile Include="Assets\KrishnaPalacio\MINIFANTASY - Dungeon\Scripts\DUN_AnimatedCharacterSelection.cs" />
-    <Compile Include="Assets\KrishnaPalacio\MINIFANTASY - Dungeon\Scripts\Prop Variants\DUN_Chair.cs" />
-    <Compile Include="Assets\PausedMenu.cs" />
-    <Compile Include="Assets\KrishnaPalacio\MINIFANTASY - Dungeon\Scripts\DUN_StaggerAnimation.cs" />
-    <Compile Include="Assets\KrishnaPalacio\MINIFANTASY - Dungeon\Scripts\Prop Variants\DUN_Table.cs" />
-    <Compile Include="Assets\KrishnaPalacio\MINIFANTASY - Dungeon\Scripts\Prop Variants\DUN_Banner.cs" />
-    <Compile Include="Assets\KrishnaPalacio\MinifantasyCommon\Scripts\CameraController.cs" />
-    <Compile Include="Assets\AudioManager.cs" />
-    <Compile Include="Assets\KrishnaPalacio\MinifantasyCommon\Scripts\SetAnimatorParameter.cs" />
+    <Compile Include="Assets\Origin\MINIFANTASY - Dungeon\Scripts\DUN_StaggerAnimation.cs" />
+    <Compile Include="Assets\Origin\MinifantasyCommon\Scripts\AnimatedObjectsGroup.cs" />
+    <Compile Include="Assets\Origin\MINIFANTASY - Dungeon\Scripts\Audio\Sound.cs" />
+    <Compile Include="Assets\Origin\MINIFANTASY - Dungeon\Scripts\Prop Variants\DUN_Statue.cs" />
+    <Compile Include="Assets\Origin\MINIFANTASY - Dungeon\Scripts\Prop Variants\DUN_Table.cs" />
+    <Compile Include="Assets\Origin\MinifantasyCommon\Scripts\SetAnimatorParameter.cs" />
+    <Compile Include="Assets\Origin\MINIFANTASY - Dungeon\Scripts\Prop Variants\DUN_Banner.cs" />
+    <Compile Include="Assets\Origin\MINIFANTASY - Dungeon\Scripts\Paused Script\PausedMenu.cs" />
+    <Compile Include="Assets\Origin\MINIFANTASY - Dungeon\Scripts\DUN_AnimatedCharacterSelection.cs" />
+    <Compile Include="Assets\Origin\MinifantasyCommon\Scripts\CameraController.cs" />
+    <Compile Include="Assets\Origin\MINIFANTASY - Dungeon\Scripts\Audio Script\AudioManager.cs" />
+    <Compile Include="Assets\Origin\MINIFANTASY - Dungeon\Scripts\Player Script\PlayerController.cs" />
+    <Compile Include="Assets\Origin\MINIFANTASY - Dungeon\Scripts\UI Sound Script\UISoundController.cs" />
+    <Compile Include="Assets\Origin\MINIFANTASY - Dungeon\Scripts\AI Chase\AIChase.cs" />
+    <Compile Include="Assets\Origin\MINIFANTASY - Dungeon\Scripts\Prop Variants\DUN_LootSack.cs" />
+    <Compile Include="Assets\Origin\MINIFANTASY - Dungeon\Scripts\Prop Variants\DUN_Chair.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\KrishnaPalacio\MINIFANTASY - Dungeon\DUN Documentation.txt" />
+    <None Include="Assets\Origin\MINIFANTASY - Dungeon\DUN Documentation.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
