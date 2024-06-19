@@ -63,12 +63,14 @@
     <Compile Include="Assets\Origin\MINIFANTASY - Dungeon\Scripts\DUN_StaggerAnimation.cs" />
     <Compile Include="Assets\Origin\MinifantasyCommon\Scripts\AnimatedObjectsGroup.cs" />
     <Compile Include="Assets\Origin\MINIFANTASY - Dungeon\Scripts\Audio\Sound.cs" />
+    <Compile Include="Assets\FinishPoint.cs" />
     <Compile Include="Assets\Origin\MINIFANTASY - Dungeon\Scripts\Prop Variants\DUN_Statue.cs" />
     <Compile Include="Assets\Origin\MINIFANTASY - Dungeon\Scripts\Prop Variants\DUN_Table.cs" />
     <Compile Include="Assets\Origin\MinifantasyCommon\Scripts\SetAnimatorParameter.cs" />
     <Compile Include="Assets\Origin\MINIFANTASY - Dungeon\Scripts\Prop Variants\DUN_Banner.cs" />
     <Compile Include="Assets\Origin\MINIFANTASY - Dungeon\Scripts\Paused Script\PausedMenu.cs" />
     <Compile Include="Assets\Origin\MINIFANTASY - Dungeon\Scripts\DUN_AnimatedCharacterSelection.cs" />
+    <Compile Include="Assets\SceneController.cs" />
     <Compile Include="Assets\Origin\MinifantasyCommon\Scripts\CameraController.cs" />
     <Compile Include="Assets\Origin\MINIFANTASY - Dungeon\Scripts\Audio Script\AudioManager.cs" />
     <Compile Include="Assets\ChangeScene.cs" />
