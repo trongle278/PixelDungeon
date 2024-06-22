@@ -10,6 +10,7 @@ public class PlayerController : MonoBehaviour
     public float collisionOffset = 0.05f;
 
     public ContactFilter2D movementFilter;
+    public SwordAttack swordAttack;
 
     Rigidbody2D rb;
 
@@ -20,7 +21,6 @@ public class PlayerController : MonoBehaviour
     SpriteRenderer spriteRenderer;
 
     List<RaycastHit2D> castCollisions = new List<RaycastHit2D>();
-
 
     public float minTimeBetweenSteps = 0.3f;
     float timeSinceLastStep = 0f;
@@ -35,43 +35,44 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (movementInput != Vector2.zero)
-        {
-            bool success = TryMove(movementInput);
-
-            if (!success)
+            // If movement input is not 0, try to move
+            if (movementInput != Vector2.zero)
             {
-                success = TryMove(new Vector2(movementInput.x, 0));
+                bool success = TryMove(movementInput);
 
                 if (!success)
                 {
-                    success = TryMove(new Vector2(movementInput.y, 0));
+                    success = TryMove(new Vector2(movementInput.x, 0));
+
+                    if (!success)
+                    {
+                        success = TryMove(new Vector2(movementInput.y, 0));
+                    }
+                }
+
+                animator.SetBool("isMoving", success);
+
+                // Phát âm thanh nếu đủ thời gian giữa các bước
+                if (success && Time.time >= timeSinceLastStep + minTimeBetweenSteps)
+                {
+                    AudioManager.Instance.PlaySFX("Walk");
+                    timeSinceLastStep = Time.time;
                 }
             }
-
-            animator.SetBool("isMoving", success);
-
-            // Phát âm thanh nếu đủ thời gian giữa các bước
-            if (success && Time.time >= timeSinceLastStep + minTimeBetweenSteps)
+            else
             {
-                AudioManager.Instance.PlaySFX("Walk");
-                timeSinceLastStep = Time.time;
+                animator.SetBool("isMoving", false);
             }
-        }
-        else
-        {
-            animator.SetBool("isMoving", false);
-        }
 
-        // Set direction of sprite to movement direction
-        if (movementInput.x < 0)
-        {
-            spriteRenderer.flipX = true;
-        }
-        else if (movementInput.x > 0)
-        {
-            spriteRenderer.flipX = false;
-        }
+            // Set direction of sprite to movement direction
+            if (movementInput.x < 0)
+            {
+                spriteRenderer.flipX = true;
+            }
+            else if (movementInput.x > 0)
+            {
+                spriteRenderer.flipX = false;
+            }       
     }
 
     private bool TryMove(Vector2 direction)
@@ -101,5 +102,10 @@ public class PlayerController : MonoBehaviour
     public void OnFire()
     {
         animator.SetTrigger("swordAttack");
+        swordAttack.Attack(!spriteRenderer.flipX);
+
+        // Phát âm thanh tấn công
+        AudioManager.Instance.PlaySFX("Attack");
     }
+
 }

@@ -60,22 +60,30 @@
     <Analyzer Include="F:\Unity\Editor\2022.3.28f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\EnemySwordHitbox.cs" />
     <Compile Include="Assets\Origin\MINIFANTASY - Dungeon\Scripts\DUN_StaggerAnimation.cs" />
     <Compile Include="Assets\Origin\MinifantasyCommon\Scripts\AnimatedObjectsGroup.cs" />
     <Compile Include="Assets\Origin\MINIFANTASY - Dungeon\Scripts\Audio\Sound.cs" />
     <Compile Include="Assets\FinishPoint.cs" />
     <Compile Include="Assets\Origin\MINIFANTASY - Dungeon\Scripts\Prop Variants\DUN_Statue.cs" />
     <Compile Include="Assets\Origin\MINIFANTASY - Dungeon\Scripts\Prop Variants\DUN_Table.cs" />
+    <Compile Include="Assets\EnemyManager.cs" />
+    <Compile Include="Assets\SwordAttack.cs" />
+    <Compile Include="Assets\Enemy.cs" />
     <Compile Include="Assets\Origin\MinifantasyCommon\Scripts\SetAnimatorParameter.cs" />
     <Compile Include="Assets\Origin\MINIFANTASY - Dungeon\Scripts\Prop Variants\DUN_Banner.cs" />
     <Compile Include="Assets\Origin\MINIFANTASY - Dungeon\Scripts\Paused Script\PausedMenu.cs" />
+    <Compile Include="Assets\PlayerStatus.cs" />
     <Compile Include="Assets\Origin\MINIFANTASY - Dungeon\Scripts\DUN_AnimatedCharacterSelection.cs" />
     <Compile Include="Assets\SceneController.cs" />
+    <Compile Include="Assets\DisplayText.cs" />
     <Compile Include="Assets\Origin\MinifantasyCommon\Scripts\CameraController.cs" />
+    <Compile Include="Assets\Healthbar.cs" />
     <Compile Include="Assets\Origin\MINIFANTASY - Dungeon\Scripts\Audio Script\AudioManager.cs" />
     <Compile Include="Assets\ChangeScene.cs" />
     <Compile Include="Assets\Origin\MINIFANTASY - Dungeon\Scripts\Player Script\PlayerController.cs" />
     <Compile Include="Assets\Origin\MINIFANTASY - Dungeon\Scripts\UI Sound Script\UISoundController.cs" />
+    <Compile Include="Assets\EnemyAttack.cs" />
     <Compile Include="Assets\Exit.cs" />
     <Compile Include="Assets\Origin\MINIFANTASY - Dungeon\Scripts\AI Chase\AIChase.cs" />
     <Compile Include="Assets\Origin\MINIFANTASY - Dungeon\Scripts\Prop Variants\DUN_LootSack.cs" />
