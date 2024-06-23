@@ -137,7 +137,7 @@ PrefabInstance:
       objectReference: {fileID: 1010491515}
     - target: {fileID: 816356176378957268, guid: 7fa4123df8cbb9042b2e5e15b587075c, type: 3}
       propertyPath: moveSpeed
-      value: 7
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 816356176378957268, guid: 7fa4123df8cbb9042b2e5e15b587075c, type: 3}
       propertyPath: chaseDistance
@@ -149,7 +149,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 816356176378957268, guid: 7fa4123df8cbb9042b2e5e15b587075c, type: 3}
       propertyPath: randomMoveSpeed
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4548724550424437049, guid: 7fa4123df8cbb9042b2e5e15b587075c, type: 3}
       propertyPath: m_AnchorMax.x
@@ -546,7 +546,7 @@ PrefabInstance:
       objectReference: {fileID: 1010491515}
     - target: {fileID: 816356176378957268, guid: 7fa4123df8cbb9042b2e5e15b587075c, type: 3}
       propertyPath: moveSpeed
-      value: 7
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 816356176378957268, guid: 7fa4123df8cbb9042b2e5e15b587075c, type: 3}
       propertyPath: chaseDistance
@@ -558,7 +558,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 816356176378957268, guid: 7fa4123df8cbb9042b2e5e15b587075c, type: 3}
       propertyPath: randomMoveSpeed
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4548724550424437049, guid: 7fa4123df8cbb9042b2e5e15b587075c, type: 3}
       propertyPath: m_AnchorMax.x
@@ -6907,7 +6907,7 @@ PrefabInstance:
       objectReference: {fileID: 1010491515}
     - target: {fileID: 816356176378957268, guid: 7fa4123df8cbb9042b2e5e15b587075c, type: 3}
       propertyPath: moveSpeed
-      value: 7
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 816356176378957268, guid: 7fa4123df8cbb9042b2e5e15b587075c, type: 3}
       propertyPath: chaseDistance
@@ -6919,7 +6919,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 816356176378957268, guid: 7fa4123df8cbb9042b2e5e15b587075c, type: 3}
       propertyPath: randomMoveSpeed
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4548724550424437049, guid: 7fa4123df8cbb9042b2e5e15b587075c, type: 3}
       propertyPath: m_AnchorMax.x
@@ -7125,7 +7125,7 @@ PrefabInstance:
       objectReference: {fileID: 1010491515}
     - target: {fileID: 816356176378957268, guid: 7fa4123df8cbb9042b2e5e15b587075c, type: 3}
       propertyPath: moveSpeed
-      value: 7
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 816356176378957268, guid: 7fa4123df8cbb9042b2e5e15b587075c, type: 3}
       propertyPath: chaseDistance
@@ -7137,7 +7137,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 816356176378957268, guid: 7fa4123df8cbb9042b2e5e15b587075c, type: 3}
       propertyPath: randomMoveSpeed
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4548724550424437049, guid: 7fa4123df8cbb9042b2e5e15b587075c, type: 3}
       propertyPath: m_AnchorMax.x
@@ -8582,7 +8582,7 @@ PrefabInstance:
       objectReference: {fileID: 1010491515}
     - target: {fileID: 816356176378957268, guid: 7fa4123df8cbb9042b2e5e15b587075c, type: 3}
       propertyPath: moveSpeed
-      value: 7
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 816356176378957268, guid: 7fa4123df8cbb9042b2e5e15b587075c, type: 3}
       propertyPath: chaseDistance
@@ -8594,7 +8594,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 816356176378957268, guid: 7fa4123df8cbb9042b2e5e15b587075c, type: 3}
       propertyPath: randomMoveSpeed
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4548724550424437049, guid: 7fa4123df8cbb9042b2e5e15b587075c, type: 3}
       propertyPath: m_AnchorMax.x
@@ -22308,7 +22308,7 @@ Transform:
   m_GameObject: {fileID: 2063902808}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.882719, y: 4.6933594, z: -9.928585}
+  m_LocalPosition: {x: 9.888388, y: 4.6933594, z: -9.928585}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -22362,7 +22362,7 @@ PrefabInstance:
       objectReference: {fileID: 1010491515}
     - target: {fileID: 816356176378957268, guid: 7fa4123df8cbb9042b2e5e15b587075c, type: 3}
       propertyPath: moveSpeed
-      value: 7
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 816356176378957268, guid: 7fa4123df8cbb9042b2e5e15b587075c, type: 3}
       propertyPath: chaseDistance
@@ -22374,7 +22374,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 816356176378957268, guid: 7fa4123df8cbb9042b2e5e15b587075c, type: 3}
       propertyPath: randomMoveSpeed
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4548724550424437049, guid: 7fa4123df8cbb9042b2e5e15b587075c, type: 3}
       propertyPath: m_AnchorMax.x

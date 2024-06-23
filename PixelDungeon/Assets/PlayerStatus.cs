@@ -39,6 +39,15 @@ public class PlayerStatus : MonoBehaviour
     void Die()
     {
         Debug.Log("Player died!");
-        // Add additional death handling code here
+        animator.SetTrigger("Die");
+        // Optionally, delay the destruction to allow the death animation to play
+        StartCoroutine(DestroyAfterAnimation());
+    }
+
+    IEnumerator DestroyAfterAnimation()
+    {
+        // Assuming the death animation is 1 second long, adjust this value as needed
+        yield return new WaitForSeconds(1.0f);
+        Destroy(gameObject);
     }
 }

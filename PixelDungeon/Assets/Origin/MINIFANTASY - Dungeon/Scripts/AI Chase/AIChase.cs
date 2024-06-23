@@ -5,7 +5,7 @@ using UnityEngine;
 public class AIChase : MonoBehaviour
 {
     public GameObject player;
-    public int moveSpeed = 5;
+    public int moveSpeed = 6;
     public float chaseDistance = 5f;
     public float attackDistance = 1.5f; // Distance within which the enemy will attack
     public float randomMoveSpeed = 4f;
