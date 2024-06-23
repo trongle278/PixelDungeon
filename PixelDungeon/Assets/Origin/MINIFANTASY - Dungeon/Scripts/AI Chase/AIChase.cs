@@ -5,77 +5,85 @@ using UnityEngine;
 public class AIChase : MonoBehaviour
 {
     public GameObject player;
-    public int moveSpeed = 5; // Tốc độ di chuyển khi đuổi theo nhân vật
-    public float chaseDistance = 5f; // Khoảng cách để bắt đầu đuổi theo nhân vật
-    public float randomMoveSpeed = 4f; // Tốc độ di chuyển ngẫu nhiên
-    public float randomMoveInterval = 0.5f; // Khoảng thời gian để thay đổi hướng di chuyển ngẫu nhiên
-    public float restInterval = 1f; // Thời gian nghỉ giữa các lần di chuyển ngẫu nhiên
-    public LayerMask obstacleLayer; // Layer của vật thể cản trở
+    public int moveSpeed = 6;
+    public float chaseDistance = 5f;
+    public float attackDistance = 1.5f; // Distance within which the enemy will attack
+    public float randomMoveSpeed = 4f;
+    public float randomMoveInterval = 0.5f;
+    public float restInterval = 1f;
+    public LayerMask obstacleLayer;
+    public float minTimeBetweenSteps = 0.3f; // Minimum time between each step sound
 
     private Vector2 randomDirection;
     private float randomMoveTimer;
     private float restTimer;
     private bool isResting;
-    private bool hitObstacle;
+    private bool isDead;
 
     private float distance;
     private Rigidbody2D rb;
     private Animator animator;
+    private Enemy enemy;
+    private EnemyAttack enemyAttack;
+    private float lastStepTime; // Time of the last step sound
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        enemy = GetComponent<Enemy>();
+        enemyAttack = GetComponent<EnemyAttack>();
 
-        // Khóa xoay trục Z để tránh xoay animation 360 độ khi va chạm
         rb.freezeRotation = true;
-
-        // Khởi tạo hướng di chuyển ngẫu nhiên ban đầu
         ChangeRandomDirection();
         isResting = false;
-
-        // Khởi tạo animator với trạng thái đang di chuyển
         animator.SetBool("isMoving", true);
+
+        lastStepTime = Time.time;
     }
 
     void Update()
     {
-        // Tính toán khoảng cách giữa quái và nhân vật
+        if (isDead || enemyAttack.IsAttacking) return; // Prevent movement while attacking or dead
+
         distance = Vector2.Distance(transform.position, player.transform.position);
 
-        if (distance < chaseDistance)
+        if (distance < attackDistance)
         {
-            // Nếu nhân vật ở gần, đuổi theo nhân vật
+            AttackPlayer();
+        }
+        else if (distance < chaseDistance)
+        {
             ChasePlayer();
         }
         else
         {
-            // Nếu nhân vật không ở gần, di chuyển ngẫu nhiên
             RandomMove();
         }
     }
 
     void ChasePlayer()
     {
-        // Tính toán hướng di chuyển về phía nhân vật
         Vector2 direction = player.transform.position - transform.position;
         direction.Normalize();
 
-        // Di chuyển quái về phía nhân vật
         rb.MovePosition(rb.position + direction * moveSpeed * Time.deltaTime);
-
-        // Cập nhật Animator
         animator.SetBool("isMoving", true);
+        UpdateFacingDirection(direction.x);
 
-        // Lật sprite dựa trên hướng di chuyển
-        if (direction.x > 0) // Di chuyển sang phải
+        // Play walking sound effect if enough time has passed since last step
+        if (Time.time >= lastStepTime + minTimeBetweenSteps)
         {
-            transform.localScale = new Vector3(Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
+            AudioManager.Instance.PlaySFX("EnemyWalk");
+            lastStepTime = Time.time;
         }
-        else if (direction.x < 0) // Di chuyển sang trái
-        {
-            transform.localScale = new Vector3(-Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
-        }
+    }
+
+    void AttackPlayer()
+    {
+        rb.velocity = Vector2.zero; // Stop moving to attack
+        animator.SetBool("isMoving", false);
+        enemyAttack.Attack();
     }
 
     void RandomMove()
@@ -87,53 +95,34 @@ public class AIChase : MonoBehaviour
             {
                 isResting = false;
                 ChangeRandomDirection();
-                // Cập nhật Animator
                 animator.SetBool("isMoving", true);
             }
             else
             {
-                // Cập nhật Animator
                 animator.SetBool("isMoving", false);
             }
         }
         else
         {
-            // Giảm giá trị bộ đếm thời gian
             randomMoveTimer -= Time.deltaTime;
 
             if (randomMoveTimer <= 0)
             {
-                // Bắt đầu nghỉ
                 isResting = true;
                 restTimer = restInterval;
-                // Cập nhật Animator
                 animator.SetBool("isMoving", false);
                 return;
             }
 
-            // Di chuyển quái theo hướng ngẫu nhiên với tốc độ giảm
             rb.MovePosition(rb.position + randomDirection * randomMoveSpeed * Time.deltaTime);
-
-            // Lật sprite dựa trên hướng di chuyển
-            if (randomDirection.x > 0) // Di chuyển sang phải
-            {
-                transform.localScale = new Vector3(Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
-            }
-            else if (randomDirection.x < 0) // Di chuyển sang trái
-            {
-                transform.localScale = new Vector3(-Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
-            }
-
-            // Cập nhật Animator
+            UpdateFacingDirection(randomDirection.x);
             animator.SetBool("isMoving", true);
         }
     }
 
     void ChangeRandomDirection()
     {
-        // Tạo một hướng ngẫu nhiên
         randomDirection = new Vector2(Random.Range(-1f, 1f), Random.Range(-1f, 1f)).normalized;
-        // Đặt lại bộ đếm thời gian
         randomMoveTimer = randomMoveInterval;
     }
 
@@ -141,8 +130,21 @@ public class AIChase : MonoBehaviour
     {
         if (collision.gameObject.layer == obstacleLayer)
         {
-            // Nếu va chạm với vật thể cản trở, đổi hướng di chuyển ngẫu nhiên
             ChangeRandomDirection();
         }
+    }
+
+    public void Die()
+    {
+        isDead = true;
+        animator.SetTrigger("DieTrigger");
+        Destroy(gameObject, 1.2f);
+    }
+
+    private void UpdateFacingDirection(float directionX)
+    {
+        bool isFacingRight = directionX > 0;
+        transform.localScale = new Vector3(isFacingRight ? Mathf.Abs(transform.localScale.x) : -Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
+        enemy.UpdateDirection(isFacingRight);
     }
 }
