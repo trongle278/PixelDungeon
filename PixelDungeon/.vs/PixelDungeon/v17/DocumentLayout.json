@@ -3,7 +3,27 @@
   "WorkspaceRootPath": "F:\\PixelDungeon\\Pixel Dungeon\\PixelDungeon\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{47CCB9E2-F61A-0DB5-521F-303C0F5D9BBA}|Assembly-CSharp.csproj|f:\\pixeldungeon\\pixel dungeon\\pixeldungeon\\assets\\origin\\minifantasy - dungeon\\scripts\\ai chase\\aichase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{47CCB9E2-F61A-0DB5-521F-303C0F5D9BBA}|Assembly-CSharp.csproj|f:\\pixeldungeon\\pixel dungeon\\pixeldungeon\\assets\\multitimelinemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47CCB9E2-F61A-0DB5-521F-303C0F5D9BBA}|Assembly-CSharp.csproj|solutionrelative:assets\\multitimelinemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47CCB9E2-F61A-0DB5-521F-303C0F5D9BBA}|Assembly-CSharp.csproj|F:\\PixelDungeon\\Pixel Dungeon\\PixelDungeon\\assets\\exit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47CCB9E2-F61A-0DB5-521F-303C0F5D9BBA}|Assembly-CSharp.csproj|solutionrelative:assets\\exit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47CCB9E2-F61A-0DB5-521F-303C0F5D9BBA}|Assembly-CSharp.csproj|F:\\PixelDungeon\\Pixel Dungeon\\PixelDungeon\\assets\\changescene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47CCB9E2-F61A-0DB5-521F-303C0F5D9BBA}|Assembly-CSharp.csproj|solutionrelative:assets\\changescene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47CCB9E2-F61A-0DB5-521F-303C0F5D9BBA}|Assembly-CSharp.csproj|F:\\PixelDungeon\\Pixel Dungeon\\PixelDungeon\\assets\\sceneskipper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47CCB9E2-F61A-0DB5-521F-303C0F5D9BBA}|Assembly-CSharp.csproj|solutionrelative:assets\\sceneskipper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47CCB9E2-F61A-0DB5-521F-303C0F5D9BBA}|Assembly-CSharp.csproj|F:\\PixelDungeon\\Pixel Dungeon\\PixelDungeon\\assets\\playerstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47CCB9E2-F61A-0DB5-521F-303C0F5D9BBA}|Assembly-CSharp.csproj|solutionrelative:assets\\playerstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47CCB9E2-F61A-0DB5-521F-303C0F5D9BBA}|Assembly-CSharp.csproj|F:\\PixelDungeon\\Pixel Dungeon\\PixelDungeon\\assets\\origin\\minifantasy - dungeon\\scripts\\ai chase\\aichase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{47CCB9E2-F61A-0DB5-521F-303C0F5D9BBA}|Assembly-CSharp.csproj|solutionrelative:assets\\origin\\minifantasy - dungeon\\scripts\\ai chase\\aichase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -15,12 +35,8 @@
       "RelativeMoniker": "D:0:0:{47CCB9E2-F61A-0DB5-521F-303C0F5D9BBA}|Assembly-CSharp.csproj|solutionrelative:assets\\enemyattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{47CCB9E2-F61A-0DB5-521F-303C0F5D9BBA}|Assembly-CSharp.csproj|f:\\pixeldungeon\\pixel dungeon\\pixeldungeon\\assets\\origin\\minifantasy - dungeon\\scripts\\player script\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{47CCB9E2-F61A-0DB5-521F-303C0F5D9BBA}|Assembly-CSharp.csproj|F:\\PixelDungeon\\Pixel Dungeon\\PixelDungeon\\assets\\origin\\minifantasy - dungeon\\scripts\\player script\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{47CCB9E2-F61A-0DB5-521F-303C0F5D9BBA}|Assembly-CSharp.csproj|solutionrelative:assets\\origin\\minifantasy - dungeon\\scripts\\player script\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{47CCB9E2-F61A-0DB5-521F-303C0F5D9BBA}|Assembly-CSharp.csproj|F:\\PixelDungeon\\Pixel Dungeon\\PixelDungeon\\assets\\playerstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47CCB9E2-F61A-0DB5-521F-303C0F5D9BBA}|Assembly-CSharp.csproj|solutionrelative:assets\\playerstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{47CCB9E2-F61A-0DB5-521F-303C0F5D9BBA}|Assembly-CSharp.csproj|F:\\PixelDungeon\\Pixel Dungeon\\PixelDungeon\\assets\\origin\\minifantasy - dungeon\\scripts\\ui sound script\\uisoundcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,58 +66,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PlayerController.cs",
-              "DocumentMoniker": "F:\\PixelDungeon\\Pixel Dungeon\\PixelDungeon\\Assets\\Origin\\MINIFANTASY - Dungeon\\Scripts\\Player Script\\PlayerController.cs",
-              "RelativeDocumentMoniker": "Assets\\Origin\\MINIFANTASY - Dungeon\\Scripts\\Player Script\\PlayerController.cs",
-              "ToolTip": "F:\\PixelDungeon\\Pixel Dungeon\\PixelDungeon\\Assets\\Origin\\MINIFANTASY - Dungeon\\Scripts\\Player Script\\PlayerController.cs",
-              "RelativeToolTip": "Assets\\Origin\\MINIFANTASY - Dungeon\\Scripts\\Player Script\\PlayerController.cs",
-              "ViewState": "AQIAAD8AAAAAAAAAAAAIwG8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T07:05:31.357Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "FinishPoint.cs",
-              "DocumentMoniker": "F:\\PixelDungeon\\Pixel Dungeon\\PixelDungeon\\Assets\\FinishPoint.cs",
-              "RelativeDocumentMoniker": "Assets\\FinishPoint.cs",
-              "ToolTip": "F:\\PixelDungeon\\Pixel Dungeon\\PixelDungeon\\Assets\\FinishPoint.cs",
-              "RelativeToolTip": "Assets\\FinishPoint.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T06:50:38.499Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "EnemyManager.cs",
-              "DocumentMoniker": "F:\\PixelDungeon\\Pixel Dungeon\\PixelDungeon\\Assets\\EnemyManager.cs",
-              "RelativeDocumentMoniker": "Assets\\EnemyManager.cs",
-              "ToolTip": "F:\\PixelDungeon\\Pixel Dungeon\\PixelDungeon\\Assets\\EnemyManager.cs",
-              "RelativeToolTip": "Assets\\EnemyManager.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAAAAQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T08:30:01.475Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Enemy.cs",
-              "DocumentMoniker": "F:\\PixelDungeon\\Pixel Dungeon\\PixelDungeon\\Assets\\Enemy.cs",
-              "RelativeDocumentMoniker": "Assets\\Enemy.cs",
-              "ToolTip": "F:\\PixelDungeon\\Pixel Dungeon\\PixelDungeon\\Assets\\Enemy.cs",
-              "RelativeToolTip": "Assets\\Enemy.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T09:09:38.4Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -120,7 +86,104 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
+              "Title": "MultiTimelineManager.cs",
+              "DocumentMoniker": "F:\\PixelDungeon\\Pixel Dungeon\\PixelDungeon\\Assets\\MultiTimelineManager.cs",
+              "RelativeDocumentMoniker": "Assets\\MultiTimelineManager.cs",
+              "ToolTip": "F:\\PixelDungeon\\Pixel Dungeon\\PixelDungeon\\Assets\\MultiTimelineManager.cs",
+              "RelativeToolTip": "Assets\\MultiTimelineManager.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAswCQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T13:26:17.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Exit.cs",
+              "DocumentMoniker": "F:\\PixelDungeon\\Pixel Dungeon\\PixelDungeon\\Assets\\Exit.cs",
+              "RelativeDocumentMoniker": "Assets\\Exit.cs",
+              "ToolTip": "F:\\PixelDungeon\\Pixel Dungeon\\PixelDungeon\\Assets\\Exit.cs",
+              "RelativeToolTip": "Assets\\Exit.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T07:54:23.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ChangeScene.cs",
+              "DocumentMoniker": "F:\\PixelDungeon\\Pixel Dungeon\\PixelDungeon\\Assets\\ChangeScene.cs",
+              "RelativeDocumentMoniker": "Assets\\ChangeScene.cs",
+              "ToolTip": "F:\\PixelDungeon\\Pixel Dungeon\\PixelDungeon\\Assets\\ChangeScene.cs",
+              "RelativeToolTip": "Assets\\ChangeScene.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T07:49:17.468Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SceneSkipper.cs",
+              "DocumentMoniker": "F:\\PixelDungeon\\Pixel Dungeon\\PixelDungeon\\Assets\\SceneSkipper.cs",
+              "RelativeDocumentMoniker": "Assets\\SceneSkipper.cs",
+              "ToolTip": "F:\\PixelDungeon\\Pixel Dungeon\\PixelDungeon\\Assets\\SceneSkipper.cs",
+              "RelativeToolTip": "Assets\\SceneSkipper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T07:44:57.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "F:\\PixelDungeon\\Pixel Dungeon\\PixelDungeon\\Assets\\Origin\\MINIFANTASY - Dungeon\\Scripts\\Player Script\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Origin\\MINIFANTASY - Dungeon\\Scripts\\Player Script\\PlayerController.cs",
+              "ToolTip": "F:\\PixelDungeon\\Pixel Dungeon\\PixelDungeon\\Assets\\Origin\\MINIFANTASY - Dungeon\\Scripts\\Player Script\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Origin\\MINIFANTASY - Dungeon\\Scripts\\Player Script\\PlayerController.cs",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAIwG8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T07:05:31.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FinishPoint.cs",
+              "DocumentMoniker": "F:\\PixelDungeon\\Pixel Dungeon\\PixelDungeon\\Assets\\FinishPoint.cs",
+              "RelativeDocumentMoniker": "Assets\\FinishPoint.cs",
+              "ToolTip": "F:\\PixelDungeon\\Pixel Dungeon\\PixelDungeon\\Assets\\FinishPoint.cs",
+              "RelativeToolTip": "Assets\\FinishPoint.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T06:50:38.499Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EnemyManager.cs",
+              "DocumentMoniker": "F:\\PixelDungeon\\Pixel Dungeon\\PixelDungeon\\Assets\\EnemyManager.cs",
+              "RelativeDocumentMoniker": "Assets\\EnemyManager.cs",
+              "ToolTip": "F:\\PixelDungeon\\Pixel Dungeon\\PixelDungeon\\Assets\\EnemyManager.cs",
+              "RelativeToolTip": "Assets\\EnemyManager.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T08:30:01.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Enemy.cs",
+              "DocumentMoniker": "F:\\PixelDungeon\\Pixel Dungeon\\PixelDungeon\\Assets\\Enemy.cs",
+              "RelativeDocumentMoniker": "Assets\\Enemy.cs",
+              "ToolTip": "F:\\PixelDungeon\\Pixel Dungeon\\PixelDungeon\\Assets\\Enemy.cs",
+              "RelativeToolTip": "Assets\\Enemy.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T09:09:38.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "UISoundController.cs",
               "DocumentMoniker": "F:\\PixelDungeon\\Pixel Dungeon\\PixelDungeon\\Assets\\Origin\\MINIFANTASY - Dungeon\\Scripts\\UI Sound Script\\UISoundController.cs",
               "RelativeDocumentMoniker": "Assets\\Origin\\MINIFANTASY - Dungeon\\Scripts\\UI Sound Script\\UISoundController.cs",
@@ -132,7 +195,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "PausedMenu.cs",
               "DocumentMoniker": "F:\\PixelDungeon\\Pixel Dungeon\\PixelDungeon\\Assets\\Origin\\MINIFANTASY - Dungeon\\Scripts\\Paused Script\\PausedMenu.cs",
               "RelativeDocumentMoniker": "Assets\\Origin\\MINIFANTASY - Dungeon\\Scripts\\Paused Script\\PausedMenu.cs",
@@ -144,7 +207,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "EnemyAttack.cs",
               "DocumentMoniker": "F:\\PixelDungeon\\Pixel Dungeon\\PixelDungeon\\Assets\\EnemyAttack.cs",
               "RelativeDocumentMoniker": "Assets\\EnemyAttack.cs",
@@ -152,8 +215,7 @@
               "RelativeToolTip": "Assets\\EnemyAttack.cs",
               "ViewState": "AQIAAB8AAAAAAAAAAAAQwCwAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T13:09:42.794Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-21T13:09:42.794Z"
             },
             {
               "$type": "Document",
@@ -163,14 +225,13 @@
               "RelativeDocumentMoniker": "Assets\\PlayerStatus.cs",
               "ToolTip": "F:\\PixelDungeon\\Pixel Dungeon\\PixelDungeon\\Assets\\PlayerStatus.cs",
               "RelativeToolTip": "Assets\\PlayerStatus.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADUAAAAAAAAA",
+              "ViewState": "AQIAACEAAAAAAAAAAAAYwDQAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T13:44:05.952Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-21T13:44:05.952Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "EnemySwordHitbox.cs",
               "DocumentMoniker": "F:\\PixelDungeon\\Pixel Dungeon\\PixelDungeon\\Assets\\EnemySwordHitbox.cs",
               "RelativeDocumentMoniker": "Assets\\EnemySwordHitbox.cs",
@@ -182,16 +243,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "AIChase.cs",
               "DocumentMoniker": "F:\\PixelDungeon\\Pixel Dungeon\\PixelDungeon\\Assets\\Origin\\MINIFANTASY - Dungeon\\Scripts\\AI Chase\\AIChase.cs",
               "RelativeDocumentMoniker": "Assets\\Origin\\MINIFANTASY - Dungeon\\Scripts\\AI Chase\\AIChase.cs",
               "ToolTip": "F:\\PixelDungeon\\Pixel Dungeon\\PixelDungeon\\Assets\\Origin\\MINIFANTASY - Dungeon\\Scripts\\AI Chase\\AIChase.cs",
               "RelativeToolTip": "Assets\\Origin\\MINIFANTASY - Dungeon\\Scripts\\AI Chase\\AIChase.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAcAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T01:00:31.196Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-21T01:00:31.196Z"
             }
           ]
         }
