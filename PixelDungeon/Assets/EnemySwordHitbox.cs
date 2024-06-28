@@ -11,7 +11,7 @@ public class EnemySwordHitbox : MonoBehaviour
             PlayerStatus playerStatus = other.GetComponent<PlayerStatus>();
             if (playerStatus != null)
             {
-                playerStatus.TakeDamage(10); // Example damage value
+                playerStatus.TakeDamage(15); // Example damage value
             }
         }
     }
