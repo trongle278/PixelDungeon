@@ -5,6 +5,7 @@ using TMPro;
 
 public class PlayerStatus : MonoBehaviour
 {
+    public event System.Action OnPlayerDeath;
     public int maxHealth = 100;
     public int currentHealth;
 
@@ -14,7 +15,7 @@ public class PlayerStatus : MonoBehaviour
 
     void Start()
     {
-        currentHealth = maxHealth;
+        currentHealth = maxHealth;  
         healthBar.SetMaxHealth(maxHealth);
         animator = GetComponent<Animator>();
         UpdateHealthText();
@@ -44,12 +45,13 @@ public class PlayerStatus : MonoBehaviour
     {
         Debug.Log("Player died!");
         animator.SetTrigger("Die");
+        OnPlayerDeath?.Invoke(); // Invoke the event when player dies
         // Optionally, delay the destruction to allow the death animation to play
         StartCoroutine(DestroyAfterAnimation());
     }
 
     IEnumerator DestroyAfterAnimation()
-    {
+    {     
         // Assuming the death animation is 1 second long, adjust this value as needed
         yield return new WaitForSeconds(1.0f);
         Destroy(gameObject);

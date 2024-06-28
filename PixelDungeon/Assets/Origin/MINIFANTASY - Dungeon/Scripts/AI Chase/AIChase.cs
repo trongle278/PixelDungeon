@@ -45,7 +45,7 @@ public class AIChase : MonoBehaviour
     void Update()
     {
         if (isDead || enemyAttack.IsAttacking) return; // Prevent movement while attacking or dead
-
+        if (player == null) return;
         distance = Vector2.Distance(transform.position, player.transform.position);
 
         if (distance < attackDistance)
