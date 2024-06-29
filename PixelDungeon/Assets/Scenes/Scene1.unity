@@ -18526,7 +18526,7 @@ Transform:
   m_GameObject: {fileID: 2063902808}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.8823395, y: 4.6933594, z: -9.928585}
+  m_LocalPosition: {x: 9.889971, y: 4.6933594, z: -9.928585}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -18907,7 +18907,7 @@ MonoBehaviour:
   displayText: {fileID: 230709095}
   gameoverScreen: {fileID: 74015058}
   healthbar: {fileID: 988778950}
-  scoreCounterText: {fileID: 773928869}
+  scoreCounterText: {fileID: 123169682}
 --- !u!1001 &7359203998784794898
 PrefabInstance:
   m_ObjectHideFlags: 0
