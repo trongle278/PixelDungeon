@@ -91,6 +91,7 @@
     <Compile Include="Assets\Exit.cs" />
     <Compile Include="Assets\Origin\MINIFANTASY - Dungeon\Scripts\AI Chase\AIChase.cs" />
     <Compile Include="Assets\Origin\MINIFANTASY - Dungeon\Scripts\Prop Variants\DUN_LootSack.cs" />
+    <Compile Include="Assets\ResetScore.cs" />
     <Compile Include="Assets\DisplayScore.cs" />
     <Compile Include="Assets\GameOver.cs" />
     <Compile Include="Assets\Origin\MINIFANTASY - Dungeon\Scripts\Prop Variants\DUN_Chair.cs" />
