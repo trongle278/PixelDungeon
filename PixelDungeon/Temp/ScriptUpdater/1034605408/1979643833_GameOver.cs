@@ -15,6 +15,7 @@ public class GameOver : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        GetComponent<AudioSource>().SetActive(true);
         PlayerStatus playerStatus = FindObjectOfType<PlayerStatus>(); // Find the PlayerStatus component
         if (playerStatus != null)
         {
