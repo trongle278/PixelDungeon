@@ -24,7 +24,9 @@ public class AIChase : MonoBehaviour
     private Rigidbody2D rb;
     private Animator animator;
     private Enemy enemy;
+    private Boss boss;
     private EnemyAttack enemyAttack;
+    private BossAttack bossAttack;
     private float lastStepTime; // Time of the last step sound
 
     void Start()
@@ -32,7 +34,9 @@ public class AIChase : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         enemy = GetComponent<Enemy>();
+        boss = GetComponent<Boss>();
         enemyAttack = GetComponent<EnemyAttack>();
+        bossAttack = GetComponent<BossAttack>();
 
         rb.freezeRotation = true;
         ChangeRandomDirection();
@@ -44,7 +48,7 @@ public class AIChase : MonoBehaviour
 
     void Update()
     {
-        if (isDead || enemyAttack.IsAttacking) return; // Prevent movement while attacking or dead
+        if (isDead || (enemyAttack != null && enemyAttack.IsAttacking) || (bossAttack != null && bossAttack.IsAttacking)) return; // Prevent movement while attacking or dead
         if (player == null) return;
         distance = Vector2.Distance(transform.position, player.transform.position);
 
@@ -83,7 +87,14 @@ public class AIChase : MonoBehaviour
     {
         rb.velocity = Vector2.zero; // Stop moving to attack
         animator.SetBool("isMoving", false);
-        enemyAttack.Attack();
+        if (bossAttack != null)
+        {
+            bossAttack.Attack();
+        }
+        else if (enemyAttack != null)
+        {
+            enemyAttack.Attack();
+        }
     }
 
     void RandomMove()
@@ -145,6 +156,14 @@ public class AIChase : MonoBehaviour
     {
         bool isFacingRight = directionX > 0;
         transform.localScale = new Vector3(isFacingRight ? Mathf.Abs(transform.localScale.x) : -Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
-        enemy.UpdateDirection(isFacingRight);
+        if (enemy != null)
+        {
+            enemy.UpdateDirection(isFacingRight);
+        }
+
+        if (boss != null)
+        {
+            boss.UpdateDirection(isFacingRight);
+        }
     }
 }

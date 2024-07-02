@@ -45,5 +45,13 @@ public class SwordAttack : MonoBehaviour
                 enemy.TakeDamage(damage);
             }
         }
+        else if (collision.CompareTag("Boss"))
+        {
+            Boss boss = collision.GetComponent<Boss>();
+            if (boss != null)
+            {
+                boss.TakeDamage(damage);
+            }
+        }
     }
 }

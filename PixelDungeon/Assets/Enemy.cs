@@ -15,6 +15,7 @@ public class Enemy : MonoBehaviour
     public float staggerTime = 0.5f;
     private bool isFacingRight = true;
 
+
     void Start()
     {
         currentHealth = maxHealth;
