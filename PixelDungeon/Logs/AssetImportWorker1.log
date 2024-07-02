@@ -15,7 +15,7 @@ E:/PRU212/PixelDungeon/PixelDungeon
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-50912
+51109
 Successfully changed project path to: E:/PRU212/PixelDungeon/PixelDungeon
 E:/PRU212/PixelDungeon/PixelDungeon
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ E:/PRU212/PixelDungeon/PixelDungeon
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [16600] Host "[IP] 192.168.1.10 [Port] 0 [Flags] 2 [Guid] 2211941738 [EditorId] 2211941738 [Version] 1048832 [Id] WindowsEditor(7,ACEMY0306) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [19244] Host "[IP] 192.168.1.10 [Port] 0 [Flags] 2 [Guid] 647457647 [EditorId] 647457647 [Version] 1048832 [Id] WindowsEditor(7,ACEMY0306) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [16600] Host "[IP] 192.168.1.10 [Port] 0 [Flags] 2 [Guid] 2211941738 [EditorId] 2211941738 [Version] 1048832 [Id] WindowsEditor(7,ACEMY0306) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [19244] Host "[IP] 192.168.1.10 [Port] 0 [Flags] 2 [Guid] 647457647 [EditorId] 647457647 [Version] 1048832 [Id] WindowsEditor(7,ACEMY0306) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 10.95 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 12.99 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.28f1 (6bae5ce6b222)
 [Subsystems] Discovering subsystems at path E:/UnityEditor/2022.3.28f1/Editor/Data/Resources/UnitySubsystems
@@ -70,44 +70,44 @@ Initialize mono
 Mono path[0] = 'E:/UnityEditor/2022.3.28f1/Editor/Data/Managed'
 Mono path[1] = 'E:/UnityEditor/2022.3.28f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'E:/UnityEditor/2022.3.28f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56752
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56392
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/UnityEditor/2022.3.28f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003412 seconds.
-- Loaded All Assemblies, in  0.483 seconds
+Registered in 0.002873 seconds.
+- Loaded All Assemblies, in  0.362 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.278 seconds
-Domain Reload Profiling: 762ms
-	BeginReloadAssembly (190ms)
+- Finished resetting the current domain, in  0.283 seconds
+Domain Reload Profiling: 645ms
+	BeginReloadAssembly (134ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (51ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (55ms)
-	LoadAllAssembliesAndSetupDomain (177ms)
-		LoadAssemblies (190ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (140ms)
+		LoadAssemblies (134ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (174ms)
-			TypeCache.Refresh (173ms)
-				TypeCache.ScanAssembly (160ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (279ms)
+		AnalyzeDomain (138ms)
+			TypeCache.Refresh (136ms)
+				TypeCache.ScanAssembly (124ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (283ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (223ms)
+		SetupLoadedEditorAssemblies (221ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (7ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (8ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (152ms)
-			ProcessInitializeOnLoadMethodAttributes (55ms)
+			ProcessInitializeOnLoadAttributes (155ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -115,400 +115,62 @@ Domain Reload Profiling: 762ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.816 seconds
-Refreshing native plugins compatible for Editor in 4.33 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.719 seconds
+Refreshing native plugins compatible for Editor in 5.27 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.665 seconds
-Domain Reload Profiling: 1481ms
-	BeginReloadAssembly (166ms)
+- Finished resetting the current domain, in  0.786 seconds
+Domain Reload Profiling: 1505ms
+	BeginReloadAssembly (169ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (21ms)
-	RebuildCommonClasses (38ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (36ms)
-	LoadAllAssembliesAndSetupDomain (566ms)
-		LoadAssemblies (430ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (244ms)
-			TypeCache.Refresh (211ms)
-				TypeCache.ScanAssembly (193ms)
-			ScanForSourceGeneratedMonoScriptInfo (25ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (666ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (502ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (62ms)
-			ProcessInitializeOnLoadAttributes (390ms)
-			ProcessInitializeOnLoadMethodAttributes (41ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 4.36 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4631 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 85 unused Assets / (136.8 KB). Loaded Objects now: 5093.
-Memory consumption went from 160.1 MB to 159.9 MB.
-Total: 4.480000 ms (FindLiveObjects: 0.344900 ms CreateObjectMapping: 0.315000 ms MarkObjects: 3.638500 ms  DeleteObjects: 0.180500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.453 seconds
-Refreshing native plugins compatible for Editor in 4.34 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.057 seconds
-Domain Reload Profiling: 1509ms
-	BeginReloadAssembly (174ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (11ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (37ms)
-	RebuildCommonClasses (27ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (27ms)
-	LoadAllAssembliesAndSetupDomain (214ms)
-		LoadAssemblies (287ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (28ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (1ms)
-			ScanForSourceGeneratedMonoScriptInfo (13ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (1057ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (474ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (74ms)
-			ProcessInitializeOnLoadAttributes (363ms)
-			ProcessInitializeOnLoadMethodAttributes (28ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Refreshing native plugins compatible for Editor in 3.97 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4606 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 39 unused Assets / (107.6 KB). Loaded Objects now: 5110.
-Memory consumption went from 154.0 MB to 153.9 MB.
-Total: 3.158700 ms (FindLiveObjects: 0.303800 ms CreateObjectMapping: 0.122100 ms MarkObjects: 2.659600 ms  DeleteObjects: 0.072500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.449 seconds
-Refreshing native plugins compatible for Editor in 6.34 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.996 seconds
-Domain Reload Profiling: 1445ms
-	BeginReloadAssembly (173ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (33ms)
-	RebuildCommonClasses (42ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (28ms)
-	LoadAllAssembliesAndSetupDomain (196ms)
-		LoadAssemblies (271ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (29ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (1ms)
-			ScanForSourceGeneratedMonoScriptInfo (13ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (997ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (413ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (59ms)
-			ProcessInitializeOnLoadAttributes (319ms)
-			ProcessInitializeOnLoadMethodAttributes (27ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
-Refreshing native plugins compatible for Editor in 4.29 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4606 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 39 unused Assets / (107.6 KB). Loaded Objects now: 5126.
-Memory consumption went from 154.0 MB to 153.9 MB.
-Total: 3.357400 ms (FindLiveObjects: 0.334100 ms CreateObjectMapping: 0.144200 ms MarkObjects: 2.790000 ms  DeleteObjects: 0.087000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.442 seconds
-Refreshing native plugins compatible for Editor in 4.23 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.008 seconds
-Domain Reload Profiling: 1449ms
-	BeginReloadAssembly (161ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (33ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (23ms)
-	LoadAllAssembliesAndSetupDomain (213ms)
-		LoadAssemblies (270ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (34ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (1ms)
-			ScanForSourceGeneratedMonoScriptInfo (17ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (1008ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (421ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (63ms)
-			ProcessInitializeOnLoadAttributes (318ms)
-			ProcessInitializeOnLoadMethodAttributes (28ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
-Refreshing native plugins compatible for Editor in 4.70 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4606 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 39 unused Assets / (107.5 KB). Loaded Objects now: 5142.
-Memory consumption went from 154.0 MB to 153.9 MB.
-Total: 3.516100 ms (FindLiveObjects: 0.376500 ms CreateObjectMapping: 0.158500 ms MarkObjects: 2.899500 ms  DeleteObjects: 0.080200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.465 seconds
-Refreshing native plugins compatible for Editor in 5.66 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.032 seconds
-Domain Reload Profiling: 1497ms
-	BeginReloadAssembly (183ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (14ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (34ms)
-	RebuildCommonClasses (37ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (31ms)
 	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (22ms)
-	LoadAllAssembliesAndSetupDomain (212ms)
-		LoadAssemblies (284ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (469ms)
+		LoadAssemblies (347ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (30ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (1ms)
-			ScanForSourceGeneratedMonoScriptInfo (14ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (1032ms)
+		AnalyzeDomain (229ms)
+			TypeCache.Refresh (186ms)
+				TypeCache.ScanAssembly (171ms)
+			ScanForSourceGeneratedMonoScriptInfo (29ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (787ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (441ms)
+		SetupLoadedEditorAssemblies (604ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (62ms)
-			ProcessInitializeOnLoadAttributes (341ms)
-			ProcessInitializeOnLoadMethodAttributes (28ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
-Refreshing native plugins compatible for Editor in 4.16 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4606 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 39 unused Assets / (107.5 KB). Loaded Objects now: 5158.
-Memory consumption went from 154.0 MB to 153.9 MB.
-Total: 3.287900 ms (FindLiveObjects: 0.346800 ms CreateObjectMapping: 0.146500 ms MarkObjects: 2.719700 ms  DeleteObjects: 0.073100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 19984.197699 seconds.
-  path: Assets/Character/Boss/Prefab/FireBlast.prefab
-  artifactKey: Guid(4248808d0fa7b7a43805ee39055c61b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Character/Boss/Prefab/FireBlast.prefab using Guid(4248808d0fa7b7a43805ee39055c61b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b01198eb182acf270580c4be7032edd8') in 0.094153 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 34
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.467 seconds
-Refreshing native plugins compatible for Editor in 4.33 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.088 seconds
-Domain Reload Profiling: 1555ms
-	BeginReloadAssembly (171ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (12ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (35ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (24ms)
-	LoadAllAssembliesAndSetupDomain (233ms)
-		LoadAssemblies (300ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (29ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (1ms)
-			ScanForSourceGeneratedMonoScriptInfo (13ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (1089ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (479ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
+			InitializePlatformSupportModulesInManaged (5ms)
 			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (75ms)
-			ProcessInitializeOnLoadAttributes (357ms)
-			ProcessInitializeOnLoadMethodAttributes (35ms)
+			BeforeProcessingInitializeOnLoad (82ms)
+			ProcessInitializeOnLoadAttributes (428ms)
+			ProcessInitializeOnLoadMethodAttributes (82ms)
 			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (13ms)
-Refreshing native plugins compatible for Editor in 4.02 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 8.22 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4605 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 39 unused Assets / (108.5 KB). Loaded Objects now: 5182.
-Memory consumption went from 157.9 MB to 157.8 MB.
-Total: 3.242500 ms (FindLiveObjects: 0.341600 ms CreateObjectMapping: 0.147200 ms MarkObjects: 2.674300 ms  DeleteObjects: 0.078700 ms)
+Unloading 6270 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 106 unused Assets / (422.4 KB). Loaded Objects now: 6730.
+Memory consumption went from 235.8 MB to 235.4 MB.
+Total: 7.672300 ms (FindLiveObjects: 0.924700 ms CreateObjectMapping: 0.465600 ms MarkObjects: 5.865100 ms  DeleteObjects: 0.415300 ms)
 
-Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
@@ -519,257 +181,33 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1140.755688 seconds.
-  path: Assets/Origin/MINIFANTASY - Dungeon/Audio/BGM/Goblins_Den_(Regular).wav
-  artifactKey: Guid(cbb4d4635add39142a505446b380ac52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Origin/MINIFANTASY - Dungeon/Audio/BGM/Goblins_Den_(Regular).wav using Guid(cbb4d4635add39142a505446b380ac52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f78ae4a7460e9dd6d7cb6322e86b5c65') in 0.064704 seconds
+  Time since last request: 22907.991254 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/Nature/SpeedTree8_PBRLit.shadergraph
+  artifactKey: Guid(9920c1f1781549a46ba081a2a15a16ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/Nature/SpeedTree8_PBRLit.shadergraph using Guid(9920c1f1781549a46ba081a2a15a16ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8266f674369d98e071b6555862c8c1f4') in 1.103528 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 1.671299 seconds.
-  path: Assets/Origin/MINIFANTASY - Dungeon/Audio/SFX/01_chest_open_2.wav
-  artifactKey: Guid(cc81fa23ee98a7c4e82ac2101266e6de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Origin/MINIFANTASY - Dungeon/Audio/SFX/01_chest_open_2.wav using Guid(cc81fa23ee98a7c4e82ac2101266e6de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c47747dc204253c92a2b395281ec11c') in 0.007744 seconds
+  Time since last request: 6.661184 seconds.
+  path: Assets/URP Lights_Renderer.asset
+  artifactKey: Guid(dda434441111b7a45aa6b6095341cc52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URP Lights_Renderer.asset using Guid(dda434441111b7a45aa6b6095341cc52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04930844c205adee1fe5c7136e06fc2b') in 0.000673 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Origin/MINIFANTASY - Dungeon/Audio/SFX/02_chest_close_1.wav
-  artifactKey: Guid(a5cb35b56171ab0468ade8411c358b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Origin/MINIFANTASY - Dungeon/Audio/SFX/02_chest_close_1.wav using Guid(a5cb35b56171ab0468ade8411c358b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a01c4aba8cce91db5c34dc0aba7ca3b') in 0.007888 seconds
+  Time since last request: 12.137737 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '957c3dc31d5b3cc4f4a8cfd8ce8080c2') in 0.037472 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 7
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Origin/MINIFANTASY - Dungeon/Audio/SFX/05_door_open_2.mp3
-  artifactKey: Guid(5a1ddd2b754b3234daae9f10287a8af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Origin/MINIFANTASY - Dungeon/Audio/SFX/05_door_open_2.mp3 using Guid(5a1ddd2b754b3234daae9f10287a8af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fe71a94f27fdeb293ffbee6fd3142dc') in 0.006651 seconds
+  Time since last request: 0.026261 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/dpcomic SDF.asset
+  artifactKey: Guid(c7f0c36b995576e45b688d8e74134006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/dpcomic SDF.asset using Guid(c7f0c36b995576e45b688d8e74134006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c1fa40fd8669991e6c8cb0073f48556') in 0.021017 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Origin/MINIFANTASY - Dungeon/Audio/SFX/11_human_damage_1.wav
-  artifactKey: Guid(66bf05404e806a246b52ae3301b3dd26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Origin/MINIFANTASY - Dungeon/Audio/SFX/11_human_damage_1.wav using Guid(66bf05404e806a246b52ae3301b3dd26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70b9ac4e00320cd3b9723f84abf08f4a') in 0.005705 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Origin/MINIFANTASY - Dungeon/Audio/SFX/11_human_damage_3.wav
-  artifactKey: Guid(f3f2758c3b721f848928abeb1e911b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Origin/MINIFANTASY - Dungeon/Audio/SFX/11_human_damage_3.wav using Guid(f3f2758c3b721f848928abeb1e911b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '521379b36391ed1a58c092f6730fb62a') in 0.008668 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Origin/MINIFANTASY - Dungeon/Audio/SFX/07_human_atk_sword_2.wav
-  artifactKey: Guid(6805a5963a49ca6498e001e11f62b8ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Origin/MINIFANTASY - Dungeon/Audio/SFX/07_human_atk_sword_2.wav using Guid(6805a5963a49ca6498e001e11f62b8ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7474bcbc870656fd979b9642bca0a8aa') in 0.010910 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Origin/MINIFANTASY - Dungeon/Audio/SFX/10_human_special_atk_2.wav
-  artifactKey: Guid(0226bbbe0346bc140a74f2ab301f09cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Origin/MINIFANTASY - Dungeon/Audio/SFX/10_human_special_atk_2.wav using Guid(0226bbbe0346bc140a74f2ab301f09cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '313302c99e3cddf9a4e2e2e19c096057') in 0.012718 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Origin/MINIFANTASY - Dungeon/Audio/SFX/08_human_charge_1.wav
-  artifactKey: Guid(d65be1f648903af4aa661d4d79e482cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Origin/MINIFANTASY - Dungeon/Audio/SFX/08_human_charge_1.wav using Guid(d65be1f648903af4aa661d4d79e482cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd444535b671180b717489def3230852') in 0.008788 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Origin/MINIFANTASY - Dungeon/Audio/SFX/07_human_atk_sword_1.wav
-  artifactKey: Guid(dd54fdbc0c3394542adaf995c1660237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Origin/MINIFANTASY - Dungeon/Audio/SFX/07_human_atk_sword_1.wav using Guid(dd54fdbc0c3394542adaf995c1660237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7c1beaab149448724f9958e4a282cfc') in 0.012460 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Origin/MINIFANTASY - Dungeon/Audio/SFX/17_orc_atk_sword_3.wav
-  artifactKey: Guid(3882fa2b51047644ca8c8818d0f4c848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Origin/MINIFANTASY - Dungeon/Audio/SFX/17_orc_atk_sword_3.wav using Guid(3882fa2b51047644ca8c8818d0f4c848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ec5ae4c985c48f9d08f9e1c5fce16bc') in 0.015907 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Origin/MINIFANTASY - Dungeon/Audio/SFX/12_human_jump_1.wav
-  artifactKey: Guid(524f8a9e35d742649b4daa590d16df3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Origin/MINIFANTASY - Dungeon/Audio/SFX/12_human_jump_1.wav using Guid(524f8a9e35d742649b4daa590d16df3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '747a7b2f9e05487095462887732550d6') in 0.009806 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Origin/MINIFANTASY - Dungeon/Audio/SFX/12_human_jump_2.wav
-  artifactKey: Guid(772db6f03feb8dd4d949549fe685623d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Origin/MINIFANTASY - Dungeon/Audio/SFX/12_human_jump_2.wav using Guid(772db6f03feb8dd4d949549fe685623d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0393f3ff928b68a4c361bcba30c57c79') in 0.019339 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Origin/MINIFANTASY - Dungeon/Audio/SFX/17_orc_atk_sword_2.wav
-  artifactKey: Guid(5808410d6eb561644b12e4ae04848471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Origin/MINIFANTASY - Dungeon/Audio/SFX/17_orc_atk_sword_2.wav using Guid(5808410d6eb561644b12e4ae04848471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1caff71b226e34e7514935cc18eaed30') in 0.019186 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Origin/MINIFANTASY - Dungeon/Audio/SFX/15_human_dash_2.wav
-  artifactKey: Guid(475601774e03dda4d904004c959b72b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Origin/MINIFANTASY - Dungeon/Audio/SFX/15_human_dash_2.wav using Guid(475601774e03dda4d904004c959b72b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e52dc2e95d154dd07de33db51a25c50') in 0.010086 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Origin/MINIFANTASY - Dungeon/Audio/SFX/16_human_walk_stone_1.wav
-  artifactKey: Guid(30760461b82e78e488768b1154b2dd3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Origin/MINIFANTASY - Dungeon/Audio/SFX/16_human_walk_stone_1.wav using Guid(30760461b82e78e488768b1154b2dd3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c6944c6189f9df4f2bc16a43cde4bbd') in 0.014019 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Origin/MINIFANTASY - Dungeon/Audio/SFX/05_door_open_1.mp3
-  artifactKey: Guid(ddc87aabb8f935b42bf4f9c93c03c1a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Origin/MINIFANTASY - Dungeon/Audio/SFX/05_door_open_1.mp3 using Guid(ddc87aabb8f935b42bf4f9c93c03c1a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a8853e864aa656bbbf4db90a486b51f') in 0.010417 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Origin/MINIFANTASY - Dungeon/Audio/SFX/09_human_charging_1_loop.wav
-  artifactKey: Guid(13bdcb293f585ad49917e4d466944610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Origin/MINIFANTASY - Dungeon/Audio/SFX/09_human_charging_1_loop.wav using Guid(13bdcb293f585ad49917e4d466944610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f50508df26f75130b443c179cb78272') in 0.012676 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Origin/MINIFANTASY - Dungeon/Audio/SFX/06_door_close_2.mp3
-  artifactKey: Guid(80d496ffeb5c33041b2c1eedbac01080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Origin/MINIFANTASY - Dungeon/Audio/SFX/06_door_close_2.mp3 using Guid(80d496ffeb5c33041b2c1eedbac01080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4354a870550fc1f4841daeb3eb8095b2') in 0.011972 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Origin/MINIFANTASY - Dungeon/Audio/SFX/03_crate_open_3.wav
-  artifactKey: Guid(c077fdb53e7fdae4ca638a98559779f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Origin/MINIFANTASY - Dungeon/Audio/SFX/03_crate_open_3.wav using Guid(c077fdb53e7fdae4ca638a98559779f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88c207a1d55fc75dc06e36999ba639d9') in 0.010666 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Origin/MINIFANTASY - Dungeon/Audio/SFX/15_human_dash_1.wav
-  artifactKey: Guid(30dec2988c1ce9a4d82550a25f62147f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Origin/MINIFANTASY - Dungeon/Audio/SFX/15_human_dash_1.wav using Guid(30dec2988c1ce9a4d82550a25f62147f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c93d72b3efce20512ffb30dc6f500397') in 0.011898 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Origin/MINIFANTASY - Dungeon/Audio/SFX/14_human_death_spin.wav
-  artifactKey: Guid(ea3285a388ebfad42b5852e376f4af78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Origin/MINIFANTASY - Dungeon/Audio/SFX/14_human_death_spin.wav using Guid(ea3285a388ebfad42b5852e376f4af78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26d5882ab3279723538b4dc30f467583') in 0.005399 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 1.906555 seconds.
-  path: Assets/Origin/MINIFANTASY - Dungeon/Audio/SFX/19_orc_charging_loop.wav
-  artifactKey: Guid(501843b682bd71e49b67c073294c53b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Origin/MINIFANTASY - Dungeon/Audio/SFX/19_orc_charging_loop.wav using Guid(501843b682bd71e49b67c073294c53b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fef47bce0763832ba383584c46b5f18e') in 0.004697 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Origin/MINIFANTASY - Dungeon/Audio/SFX/24_orc_death_spin.wav
-  artifactKey: Guid(c2e55f2dc36a2c64993b23845f57a05d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Origin/MINIFANTASY - Dungeon/Audio/SFX/24_orc_death_spin.wav using Guid(c2e55f2dc36a2c64993b23845f57a05d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b82ee837b23f9ef968fcc22aed856ae') in 0.005418 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000087 seconds.
-  path: Assets/Origin/MINIFANTASY - Dungeon/Audio/SFX/26_sword_hit_1.wav
-  artifactKey: Guid(78c42b5a3c8138f459cc6c0e2ebc9d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Origin/MINIFANTASY - Dungeon/Audio/SFX/26_sword_hit_1.wav using Guid(78c42b5a3c8138f459cc6c0e2ebc9d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9293712e125505fe9c57444bb6a9998c') in 0.005355 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Origin/MINIFANTASY - Dungeon/Audio/SFX/22_orc_jump_1.wav
-  artifactKey: Guid(d6fef67a88468df4d9d9885fe8ee863a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Origin/MINIFANTASY - Dungeon/Audio/SFX/22_orc_jump_1.wav using Guid(d6fef67a88468df4d9d9885fe8ee863a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caaf813d44f1a053254bf7d7d68ba0ce') in 0.005936 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Origin/MINIFANTASY - Dungeon/Audio/SFX/25_orc_walk_stone_1.wav
-  artifactKey: Guid(0aaa3bcaf13cd2447a4ccef288a2afd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Origin/MINIFANTASY - Dungeon/Audio/SFX/25_orc_walk_stone_1.wav using Guid(0aaa3bcaf13cd2447a4ccef288a2afd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6463ad956efbb457c01b30e2d01ba321') in 0.005720 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Origin/MINIFANTASY - Dungeon/Audio/SFX/20_orc_special_atk.wav
-  artifactKey: Guid(4fef7bd6f4b924e4992b87419ba0d9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Origin/MINIFANTASY - Dungeon/Audio/SFX/20_orc_special_atk.wav using Guid(4fef7bd6f4b924e4992b87419ba0d9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fd7c812f45bbb9debcf28546bddd124') in 0.005258 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Origin/MINIFANTASY - Dungeon/Audio/SFX/21_orc_damage_2.wav
-  artifactKey: Guid(4fd9876f072824f4fa17078181033439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Origin/MINIFANTASY - Dungeon/Audio/SFX/21_orc_damage_2.wav using Guid(4fd9876f072824f4fa17078181033439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00d034be0ba1649770f582cd4bd574ba') in 0.006037 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.320698 seconds.
-  path: Assets/Origin/MINIFANTASY - Dungeon/Audio/SFX/26_sword_hit_3.wav
-  artifactKey: Guid(9a034744884e98f419a8ffe64557b099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Origin/MINIFANTASY - Dungeon/Audio/SFX/26_sword_hit_3.wav using Guid(9a034744884e98f419a8ffe64557b099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d0aa84c37d5ee987e62dc77d78423cb') in 0.005287 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Origin/MINIFANTASY - Dungeon/Audio/SFX/27_sword_miss_2.wav
-  artifactKey: Guid(b8bebc4742bb0cd418a72de9a1066501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Origin/MINIFANTASY - Dungeon/Audio/SFX/27_sword_miss_2.wav using Guid(b8bebc4742bb0cd418a72de9a1066501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a65f63eb9ab7327081ae7cfb96b083c') in 0.005360 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Origin/MINIFANTASY - Dungeon/Audio/SFX/27_sword_miss_1.wav
-  artifactKey: Guid(5b934ad8cfb241043a473d87124c03dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Origin/MINIFANTASY - Dungeon/Audio/SFX/27_sword_miss_1.wav using Guid(5b934ad8cfb241043a473d87124c03dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce89164eadbf42edf223f47a9fcb834c') in 0.005265 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 5
