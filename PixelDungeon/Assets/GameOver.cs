@@ -8,16 +8,14 @@ public class GameOver : MonoBehaviour
 {
     public GameObject pausedButton;
     public GameObject displayText;
-    public GameObject gameoverScreen;
     public GameObject healthbar;
-    public TextMeshProUGUI scoreCounterText;
-    private int points;
+
+
 
     // Start is called before the first frame update
     void Start()
     {
         PlayerStatus playerStatus = FindObjectOfType<PlayerStatus>(); // Find the PlayerStatus component
-        gameoverScreen.SetActive(false);
         if (playerStatus != null)
         {
             playerStatus.OnPlayerDeath += HandlePlayerDeath; // Subscribe to the OnPlayerDeath event
@@ -32,15 +30,9 @@ public class GameOver : MonoBehaviour
     public void HandlePlayerDeath()
     {
         Debug.Log("Player has died! Responding to death...");
-        gameoverScreen.SetActive(true);
         pausedButton.SetActive(false);
         displayText.SetActive(false);
         healthbar.SetActive(false);
-        points = PlayerPrefs.GetInt("PointValue");
-        scoreCounterText.text = "Your Score: " + (points).ToString();
-    }
-    public void BackToMainMenu()
-    {
-        SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadSceneAsync("GameOver");
     }
 }

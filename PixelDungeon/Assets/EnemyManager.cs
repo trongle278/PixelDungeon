@@ -1,7 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
-using UnityEngine.SceneManagement;
 
 public class EnemyManager : MonoBehaviour
 {
@@ -54,13 +53,6 @@ public class EnemyManager : MonoBehaviour
         PlayerPrefs.Save();
         Debug.Log("Current point: " + points);
         return defeatedEnemies >= totalEnemies;     
-    }
-    public void ScoreReset()
-    {
-        if (SceneManager.GetActiveScene().Equals("MainMenu"))
-        {
-            PlayerPrefs.SetInt("PointValue", 0);
-        }
     }
     private void OnApplicationQuit()
     {
