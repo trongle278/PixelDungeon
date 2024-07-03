@@ -1,6 +1,7 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Boss : MonoBehaviour
 {
@@ -137,6 +138,9 @@ public class Boss : MonoBehaviour
 
         // Notify the enemy manager
         EnemyManager.instance.EnemyDefeated();
+
+        // Load the GameOver scene
+        SceneManager.LoadScene("GameOver");
     }
 
     public void UpdateDirection(bool facingRight)
