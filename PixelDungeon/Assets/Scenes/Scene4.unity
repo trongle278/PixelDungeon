@@ -6869,7 +6869,7 @@ Transform:
   m_GameObject: {fileID: 1057690631}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -11.762478, y: 4.3210297, z: -9.928585}
+  m_LocalPosition: {x: -11.761576, y: 4.3210397, z: -9.928585}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7756,6 +7756,10 @@ PrefabInstance:
       propertyPath: maxHealth
       value: 150
       objectReference: {fileID: 0}
+    - target: {fileID: 6692846574957419499, guid: 7fa4123df8cbb9042b2e5e15b587075c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     - target: {fileID: 8314404086183730123, guid: 7fa4123df8cbb9042b2e5e15b587075c, type: 3}
       propertyPath: m_Name
       value: Orc (2)
@@ -7988,6 +7992,10 @@ PrefabInstance:
       propertyPath: maxHealth
       value: 150
       objectReference: {fileID: 0}
+    - target: {fileID: 6692846574957419499, guid: 7fa4123df8cbb9042b2e5e15b587075c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     - target: {fileID: 8314404086183730123, guid: 7fa4123df8cbb9042b2e5e15b587075c, type: 3}
       propertyPath: m_Name
       value: Orc (4)
@@ -8827,6 +8835,10 @@ PrefabInstance:
       propertyPath: maxHealth
       value: 150
       objectReference: {fileID: 0}
+    - target: {fileID: 6692846574957419499, guid: 7fa4123df8cbb9042b2e5e15b587075c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     - target: {fileID: 8314404086183730123, guid: 7fa4123df8cbb9042b2e5e15b587075c, type: 3}
       propertyPath: m_Name
       value: Orc
@@ -9046,6 +9058,10 @@ PrefabInstance:
       propertyPath: maxHealth
       value: 150
       objectReference: {fileID: 0}
+    - target: {fileID: 6692846574957419499, guid: 7fa4123df8cbb9042b2e5e15b587075c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     - target: {fileID: 8314404086183730123, guid: 7fa4123df8cbb9042b2e5e15b587075c, type: 3}
       propertyPath: m_Name
       value: Orc (5)
@@ -9400,6 +9416,10 @@ PrefabInstance:
       propertyPath: maxHealth
       value: 150
       objectReference: {fileID: 0}
+    - target: {fileID: 6692846574957419499, guid: 7fa4123df8cbb9042b2e5e15b587075c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     - target: {fileID: 8314404086183730123, guid: 7fa4123df8cbb9042b2e5e15b587075c, type: 3}
       propertyPath: m_Name
       value: Orc (6)
@@ -19218,6 +19238,10 @@ PrefabInstance:
       propertyPath: maxHealth
       value: 150
       objectReference: {fileID: 0}
+    - target: {fileID: 6692846574957419499, guid: 7fa4123df8cbb9042b2e5e15b587075c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     - target: {fileID: 8314404086183730123, guid: 7fa4123df8cbb9042b2e5e15b587075c, type: 3}
       propertyPath: m_Name
       value: Orc (1)
@@ -19670,6 +19694,10 @@ PrefabInstance:
       propertyPath: maxHealth
       value: 150
       objectReference: {fileID: 0}
+    - target: {fileID: 6692846574957419499, guid: 7fa4123df8cbb9042b2e5e15b587075c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     - target: {fileID: 8314404086183730123, guid: 7fa4123df8cbb9042b2e5e15b587075c, type: 3}
       propertyPath: m_Name
       value: Orc (3)
@@ -19897,7 +19925,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 2
-      m_TileSpriteIndex: 2
+      m_TileSpriteIndex: 7
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -19952,18 +19980,18 @@ Tilemap:
     m_Data: {fileID: 6474533612381454296, guid: f7b37b91088c7d44b98c5e710477bd39, type: 3}
   - m_RefCount: 2
     m_Data: {fileID: -4660724893118282161, guid: f7b37b91088c7d44b98c5e710477bd39, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 1
     m_Data: {fileID: -4699302077504393560, guid: f7b37b91088c7d44b98c5e710477bd39, type: 3}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
   - m_RefCount: 1
     m_Data: {fileID: -7370078311767567610, guid: f7b37b91088c7d44b98c5e710477bd39, type: 3}
   - m_RefCount: 1
@@ -20116,6 +20144,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -10.18
       objectReference: {fileID: 0}
+    - target: {fileID: 6692846574957419499, guid: 7fa4123df8cbb9042b2e5e15b587075c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     - target: {fileID: 8314404086183730123, guid: 7fa4123df8cbb9042b2e5e15b587075c, type: 3}
       propertyPath: m_Name
       value: Orc (7)

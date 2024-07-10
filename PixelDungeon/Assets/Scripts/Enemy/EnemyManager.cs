@@ -9,7 +9,7 @@ public class EnemyManager : MonoBehaviour
     private int totalEnemies;
     private int defeatedEnemies;
     public int points;
-
+    private int i = 0 ;
     private void Awake()
     {
         if (instance == null)
@@ -28,6 +28,21 @@ public class EnemyManager : MonoBehaviour
         defeatedEnemies = 0;
         UpdateEnemyCounter();
         points = PlayerPrefs.GetInt("PointValue");
+    }
+    private void Update()
+    {
+
+        if (i == 0)
+        {
+            if (AllEnemiesDefeated() == true)
+            {
+                points = points + 100;
+                PlayerPrefs.SetInt("PointValue", points);
+                PlayerPrefs.Save();
+                Debug.Log("Current point: " + points);
+                i = 1;
+            }
+        }
     }
 
     public void EnemyDefeated()
@@ -48,10 +63,6 @@ public class EnemyManager : MonoBehaviour
 
     public bool AllEnemiesDefeated()
     {
-        points = points + 100;
-        PlayerPrefs.SetInt("PointValue", points);
-        PlayerPrefs.Save();
-        Debug.Log("Current point: " + points);
         return defeatedEnemies >= totalEnemies;     
     }
     private void OnApplicationQuit()
