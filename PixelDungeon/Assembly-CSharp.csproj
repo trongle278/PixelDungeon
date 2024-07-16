@@ -81,6 +81,7 @@
     <Compile Include="Assets\Scripts\Prop Variants\DUN_Banner.cs" />
     <Compile Include="Assets\Scripts\General\Phase2BulletScript.cs" />
     <Compile Include="Assets\Scripts\Boss Script\BossPhase2Shooting.cs" />
+    <Compile Include="Assets\HowToPlayScript.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyAttack.cs" />
     <Compile Include="Assets\Scripts\Audio Script\AudioManager.cs" />
     <Compile Include="Assets\Scripts\General\ScoringScript.cs" />
